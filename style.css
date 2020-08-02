@@ -1,11 +1,37 @@
-/* CSS files add styling rules to your content */
-
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+    background-color: rgb(27, 2, 2);
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.alert-success {
+    background-color: rgb(107, 10, 10);
+}
+
+.alert-heading {
+    color: #ff0000;
+}
+
+.card-text {
+    color: #a10404;
+}
+
+.container {
+    width: 100%px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-group {
+    color: #ff0000;
+}
+
+#centro {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
 }
