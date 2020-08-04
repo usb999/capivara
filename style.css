@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(163, 34, 34);
+    background-color: rgb(98, 17, 17);
 }
 
 .alert-success {
@@ -66,7 +66,7 @@ a {
 }
 
 a {
-    color: #000;
+    color: white;
     font-weight: bold
         /* negrito no texto */
         -webkit-transition: 0.5s ease-in;
