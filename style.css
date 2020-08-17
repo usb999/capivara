@@ -1,17 +1,28 @@
 body {
-    background-color: rgb(98, 17, 17);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../SITE/img/d.jpg) no-repeat center top fixed
 }
 
-.alert-success {
-    background-color: rgb(107, 10, 10);
+.text-warning {
+    font-size: 18px;
 }
 
-.alert-heading {
-    color: #ff0000;
+.nk-post-date {
+    color: red;
+}
+
+.nk-footer {
+    position: relative;
+    color: #eee;
+    background-color: rgb(52, 58, 64);
+    z-index: 1;
+}
+
+.card-title {
+    color: white;
 }
 
 .card-text {
-    color: #a10404;
+    color: rgb(228, 2, 2);
 }
 
 .container {
@@ -84,9 +95,9 @@ a {
     transition: 0.5s ease-in;
 }
 
-p{
-    font-size:16.9px;
-} 
+p {
+    font-size: 16.9px;
+}
 
 div {
     border-width: 5px;
