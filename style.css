@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn.glitch.com/e92caf87-e915-4fc3-b084-86da6d83ab38%2Fd.jpg?v=1597698549028) no-repeat center top fixed
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn.glitch.com/e92caf87-e915-4fc3-b084-86da6d83ab38%2Fd.jpg?v=1598547734324) no-repeat center top fixed
 }
 
 .text-warning {
@@ -13,12 +13,15 @@ body {
 .nk-footer {
     position: relative;
     color: #eee;
-    background-color: rgb(52, 58, 64);
     z-index: 1;
 }
 
 .card-title {
     color: white;
+}
+
+.card-header {
+    color: white
 }
 
 .card-text {
