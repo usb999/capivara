@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: sheep-website.glitch.me
-Token: a46a819d3ddbff27f3e255335ff7cf499917cad2e626ae5d638b1694960282d1
