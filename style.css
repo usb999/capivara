@@ -1,7 +1,7 @@
 /* Product Sans font-face */
 @font-face {
-    src: url("fonts/productsans.ttf");
-    font-family: 'productSans';
+    src: url("../productsans.ttf");
+    font-family: 'Viga', sans-serif;
 }
 
 /* Icon font font-face */
@@ -12,12 +12,13 @@
     url('fonts/fontello400d.woff?8268888') format('woff'),
     url('fonts/fontello400d.ttf?8268888') format('truetype'),
     url('fonts/fontello400d.svg?8268888#fontello') format('svg');
+
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: productSans, serif;
+    font-family: 'Viga', sans-serif;
     background-color: #222;
     margin: 0;
 }

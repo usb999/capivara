@@ -51,7 +51,7 @@
 
 /* Title text */
 .title {
-    font-family: productSans;
+    font-family: 'Viga', sans-serif;
     font-size: 70px;
     color: #fff;
     text-align: center;
@@ -62,7 +62,7 @@
 
 /* Description text */
 .desc {
-    font-family: productSans;
+    font-family: 'Viga', sans-serif;
     font-size: 20px;
     color: #fff;
     margin-top: -15px;
@@ -86,7 +86,7 @@
 /* Scroll button text */
 .scrollButton {
     padding-top: 155px;
-    font-family: productSans;
+    font-family: 'Viga', sans-serif;
     font-size: 18px;
     color: #fff;
     margin-top: -15px;
@@ -132,7 +132,7 @@
 
 /* Information title, used to make new categories */
 .informationTitle {
-    font-family: productSans;
+    font-family: 'Viga', sans-serif;
     text-align: center;
     font-size: 45px;
     text-shadow: 0 0 6px #aaa;
@@ -174,7 +174,7 @@
 
 /* Card title text (big) */
 .cardTitle {
-    font-family: productSans, serif;
+    font-family: 'Viga', sans-serif;
     font-weight: 600;
     text-align: center;
     font-size: 32px;
@@ -190,7 +190,7 @@
 
 /* Card text (small) */
 .cardText {
-    font-family: productSans, serif;
+    font-family: 'Viga', sans-serif;
     text-align: center;
     font-size: 18px;
 }
@@ -233,7 +233,7 @@
 
 /* Button Header text */
 .btnHeader {
-    font-family: productSans, serif;
+    font-family: 'Viga', sans-serif;
     font-size: 26px;
     color: #fff;
     padding-bottom: 5px;
@@ -241,7 +241,7 @@
 
 /* Button Footer text */
 .btnFooter {
-    font-family: productSans, serif;
+    font-family: 'Viga', sans-serif;
     color: #fff;
     font-size: 14px;
 }
