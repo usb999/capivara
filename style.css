@@ -114,6 +114,15 @@ body {
     float: right;
 }
 
+.cursor {
+width: 20px;
+height: 20px;
+border: 1px solid white;
+border-radius: 50%;
+position: absolute;
+}
+
+
 /* Scroll to top button hover effect */
 #topButton:hover {
     background-color: #555;
@@ -155,7 +164,6 @@ body {
     transform: rotate(-225deg);
     box-sizing: border-box;
 }
-
 
 
 /* Define a screen end so the panels to click on will go downwards instead of on the right */
