@@ -170,10 +170,11 @@ body {
     }
 }
 
+
 div.setaBaixo{
     width: 40px;
     height: 40px;
-    background-image: url("seta-para-baixo.png");
+    background-image: url("https://cdn.glitch.com/e92caf87-e915-4fc3-b084-86da6d83ab38%2Fwhite-sheep.png?v=1619864144325");
     background-size: contain;
     position: absolute;
     left: 50%;
