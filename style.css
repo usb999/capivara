@@ -7,6 +7,10 @@ body {
     overflow-x: hidden;
 }
 
+.jumbotron {
+    background-color: #333;
+}
+
 
 .bd-callout-info {
     border-left-color: #5bc0de;
