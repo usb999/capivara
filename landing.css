@@ -118,29 +118,41 @@ a {
     box-sizing: border-box;
 }
 
-.nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+#titleButtonContainer {
+    margin-top: 30px;
+    text-align: center;
 }
 
-.nav-masthead .nav-link + .nav-link {
-    margin-left: 1rem;
+.appearFromInvisible {
+    animation: 3s ease-out 0.0s 1 appearFromInvisible;
 }
 
-.nav-masthead .nav-link {
-    padding: 0.25rem 0;
-    font-weight: 700;
-    color: rgba(255, 255, 255, .5);
-    background-color: transparent;
-    border-bottom: 0.25rem solid transparent;
+#titleButtonContainer button {
+    border-radius: 5px;
 }
 
-.nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
+.downloadBtn {
+    background-color: rgba(200, 50, 50, 1);
+}
+button {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 0;
+    padding: 19px;
+}
+button {
+    border: none;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 1;
+    transition: color 0.2s, background-color 0.2s, transform 0.4s, z-index 0.4s;
+
+#learnMoreBtn {
+    -webkit-box-shadow: inset 0px 0px 0px 1px white;
+    -moz-box-shadow: inset 0px 0px 0px 1px white;
+    box-shadow: inset 0px 0px 0px 1px white;
 }
