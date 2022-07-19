@@ -8,7 +8,7 @@
 .videoPlayerHeader {
     position: absolute;
     overflow: hidden;
-    width: 100vw;
+    width: 35vw;
     height: calc(100vh - 83px);
     pointer-events: none;
     justify-content: center;
