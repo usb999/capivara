@@ -3,3 +3,18 @@ body {
     font-family: ubuntu,sans-serif;
     overflow-x: hidden;
 }
+
+.bd-callout-info {
+    border-left-color: #5bc0de;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+}
+*, 
+
