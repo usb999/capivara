@@ -6,7 +6,7 @@
 
 /* Video Player Header div class */
 .videoPlayerHeader {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     width: 100vw;
     height: calc(100vh - 83px);
