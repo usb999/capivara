@@ -1,8 +1,12 @@
 body {
-    background: #eee;
+    height: 100%;
+    background-color: #333;
     font-family: ubuntu,sans-serif;
+    color: #fff;
+    text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
     overflow-x: hidden;
 }
+
 
 .bd-callout-info {
     border-left-color: #5bc0de;
@@ -18,3 +22,26 @@ body {
 }
 *, 
 
+.bd-callout p:last-child {
+    margin-bottom: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img {
+ max-width: 2%;
+ max-height: 3%;
+}
