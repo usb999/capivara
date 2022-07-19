@@ -49,3 +49,8 @@ img {
  max-width: 2%;
  max-height: 3%;
 }
+
+button {
+transparecy: 100%;
+border: auto;
+}
