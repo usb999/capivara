@@ -106,3 +106,7 @@ h2 {
     font-weight: bold;
 }
 
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
