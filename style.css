@@ -110,3 +110,20 @@ h2 {
     vertical-align: -0.125em;
     fill: currentColor;
 }
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+img[Attributes Style] {
+    width: 140px;
+    aspect-ratio: auto 140 / 140;
+    height: 140px;
+}

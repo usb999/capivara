@@ -384,3 +384,7 @@ main {
 .bd-gutter {
     --bs-gutter-x: 3rem;
 }
+
+.blog-post {
+    margin-bottom: 4rem;
+}
