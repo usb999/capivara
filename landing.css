@@ -362,3 +362,25 @@ p {
 div {
     display: block;
 }
+
+.bd-main {
+    max-width: 760px;
+    margin-inline: auto;
+}
+
+.bd-main {
+    grid-area: main;
+}
+.order-1 {
+    order: 1!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+main {
+    display: block;
+}
+.bd-gutter {
+    --bs-gutter-x: 3rem;
+}
