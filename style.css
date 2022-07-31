@@ -161,4 +161,44 @@ img[Attributes Style] {
       49% { opacity: 1; }
       50% { opacity: 0; }
       100% { opacity: 0; }
-  }
+}
+
+#innolinks {
+    padding-top: 20px;
+    line-height: 200%;
+}
+
+#innolinks {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+#center {
+    margin: 75px 10px 0px 150px;
+    /* background: white; */
+}
+
+element.style {
+    text-align: right;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.newsflash {
+    display: inline-block;
+    margin: 1em 0em 1em 1em;
+    height: auto;
+    padding: 0.5em;
+    font-size: 0.85em;
+}
+
+#content {
+    margin-top: 0px;
+    border-left: 1px dotted #808080;
+    border-bottom: 1px dotted #808080;
+    padding: 0px 20px 10px 10px;
+}

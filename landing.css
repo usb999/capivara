@@ -414,3 +414,16 @@ h1 {
   }
 }
 
+.wikipage h1, .wikipage h2, .wikipage h3 {
+    margin-left: 0px;
+}
+
+.wikipage h1, .wikipage h2, .wikipage h3 {
+    margin-left: -18px;
+}
+h1 {
+    font-size: 200%;
+    padding-left: 5px;
+    border-bottom: 1px dotted #808080;
+    /* border-bottom: 2px solid black; */
+}
