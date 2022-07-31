@@ -303,7 +303,7 @@ main {
 h1 { 
   box-shadow: .6em 0 0;
   margin: 2rem 1rem;
-  width: 10ch;
+  width: 23ch;
   overflow: hidden;
   white-space: nowrap;
   animation: caret .5s step-end infinite alternate,
@@ -322,19 +322,4 @@ h1 {
   }
 }
 
-p, b, li{
-color: #757575;
-}
-p,,li,b:hover{
-color: #757575;
-}
-
-a{
-color: #757575;
-text-decoration:none
-}
-a:hover{
-color: #757575;
-text-decoration:none
-}
 
