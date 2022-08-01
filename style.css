@@ -194,3 +194,31 @@ a:-webkit-any-link {
     color: #333333;
     cursor: pointer;
 }
+
+.grid .row:last-child {
+    margin-bottom: 0;
+}
+.grid .row {
+    width: 100%;
+    display: block;
+    margin: 0 0 2.12765% 0;
+        margin-bottom: 2.12765%;
+}
+* {
+    border-collapse: collapse;
+}
+
+.grid {
+    display: block;
+    position: relative;
+    margin: .625rem 0;
+
+}
+
+/*.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
