@@ -122,7 +122,7 @@ a {
 .fs-5 {
     font-size: 1.25rem!important;
 }
-p {
+/* p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -137,7 +137,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+*/
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
