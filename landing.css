@@ -322,4 +322,12 @@ h1 {
   }
 }
 
-
+.texto-c{
+    font-size: 15px;
+    -webkit-background-clip: text;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    /*background-color: #FFF;*/
+    background-image: -webkit-gradient(linear,left top,right top,from(#ea8711), to(#d96363));
+    background-image: -webkit-linear-gradient(left,#FF0000,#FFDA00,#48FF00,#00FF91,#0091FF, #4800FF, #FF00DA);
+}
