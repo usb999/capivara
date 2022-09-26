@@ -108,6 +108,39 @@ h1 {
 			</div>
 </center>
 -->
+<script type="text/javascript">
+				var message="Restricted area."; function clickIE4(){
+				if (event.button==2){ alert(message); return false; } }
+				 function clickNS4(e){
+				 if  (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } }
+				 if (document.layers){document.captureEvents(Event.MOUSEDOWN);
+				document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){
+				document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false")    
+		</script>
+
+<script type="text/javascript">
+
+function timeMsg(){
+	var t=setTimeout("alertMsg()",3000);
+}
+
+function alertMsg(){
+	document.write("Terminal Root");
+}
+
+</script>
+<!--
+<script>
+	var win = null;
+	function NovaJanela(pagina,nome,w,h,scroll){
+	LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+	TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+	settings = 'location=no,toolbar=no,directories=no,status=no,height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable';
+	win = window.open(pagina,nome,settings);
+	}
+</script>
+<a href="http://www.google.com/" onclick="NovaJanela(this.href,'nomeJanela','820','560','yes');return false">Abrir Pop-Up</a>
+-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
