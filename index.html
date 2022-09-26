@@ -1,113 +1,31 @@
 <!DOCTYPE html>
     <html lang="pt-br">
 <head>
-
         <meta charset="UTF-8">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="../landing.css">
-        <script src="../website.js"></script>
+        <link rel="stylesheet" href="../style2.css">
         <meta property="og:type" content="website">
         <meta property="og:title" content="qwert">
         <meta property="og:description" content="website">        
         <!-- <link rel="icon" href="">-->
-        <title>error 404 page  ･ﾟ✧</title>
+        <title>Loading page  ･ﾟ✧</title>
     </head>
-<style>
-fixed{
- height: 60px;
- width: 300px;
- position: fixed;
- bottom: 60px;
- right: 32px;
-}
+<body>
 
-  body{
-background-color: black;}
+<div class="center">
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>
 
-h1 { 
-  box-shadow: .6em 0 0;
-  margin: 2rem 1rem;
-  width: 7.9ch;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: caret .5s step-end infinite alternate,
-             type 5s steps(23, end)
-}
-
-@keyframes type {
-  0% {
-    width: 0;
-  }
-
-}
-@keyframes caret { 
-  50% { 
-    box-shadow: .6em 0 0 transparent;
-  }
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-    position: relative;
-    top: 0;
-    left: 0;
-   width: 400px;
-  height: 200px;
-
-</style>
-
-<body class="d-flex flex-column h-100">
-
-    <!-- Begin page content -->
-    <main role="main" class="flex-shrink-0">
-      <div class="container">
-        <h1 class="mt-5">Error 404</h1>
-        <p class="lead">There was an error in updating the page, return to the previous page by clicking on the link below.</p>
-        <p><a href="./index.html">Back to previous page </a></p>
-      </div>
-    </main>
-
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted">Sorry for this unintentional problem of our server.</span>
-      </div> 
-    </footer>
-<div class="fixed ">
-<ol class="list-group list-group-numbered ">
-  <span class="badge badge-dark">
-<p class="texto-c">✧ﾟ･ Updates ･ﾟ✧</p></span>
-  <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
-    <div class="ms-2 me-auto text-white">
-      <div class="fw-bold">Main page</div>
-      with relevant information and straight to the point. <a href="./index.html">visit new page</a>
-    </div>
-    <span class="badge bg-success rounded-pill" style="color:#5CFF48">Completed</span>
-  </li>
-  <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
-    <div class="ms-2 me-auto text-muted">
-      <div class="fw-bold">Dashboard</div>
-      direct connection to the site by dashboard.
-      </div>
-    <span class="badge bg-secondary rounded-pill">0%</span>
-  </li>
-  <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
-    <div class="ms-2 me-auto text-muted">
-      <div class="fw-bold">Languages</div>
-      site with translation option for several languages.
-    </div>
-    <span class="badge bg-secondary rounded-pill">0%</span>
-  </li>
-</ol>
-  </div>
-<!--  <center>
-<div class="row">
-				<div class="video-container no-padding-top">
-					<iframe src="https://www.youtube.com/embed/pIk0PHbP-AE?rel=0" allowfullscreen="" loading="lazy" frameborder="0"></iframe>
-				</div>
-			</div>
-</center>
--->
 <script type="text/javascript">
 				var message="Restricted area."; function clickIE4(){
 				if (event.button==2){ alert(message); return false; } }
@@ -118,36 +36,35 @@ h1 {
 				document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false")    
 		</script>
 
-<script type="text/javascript">
-
-function timeMsg(){
-	var t=setTimeout("alertMsg()",3000);
-}
-
-function alertMsg(){
-	document.write("Terminal Root");
-}
-
-</script>
-<!--
 <script>
-	var win = null;
-	function NovaJanela(pagina,nome,w,h,scroll){
-	LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
-	TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
-	settings = 'location=no,toolbar=no,directories=no,status=no,height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable';
-	win = window.open(pagina,nome,settings);
-	}
+(function(){
+    var minutesToLogout = 8 * 60 * 1000; // Configure o tempo que achar melhor
+    var logoutUrl = 'main.html'; // Configure a URL de logout
+
+    var lastModified = Date.now();
+    var html = document.getElementsByTagName('html')[0];
+    var setLastModified = function(){lastModified = Date.now();}
+
+    html.onmousemove = setLastModified;
+    html.onkeypress = setLastModified;
+
+    var logoutFunction = function(){
+        var timeDiff = Date.now() - lastModified;
+        if(timeDiff > minutesToLogout)
+            document.location = logoutUrl;
+        else
+            setTimeout(logoutFunction, minutesToLogout - timeDiff);
+    }
+    setTimeout(logoutFunction, minutesToLogout);
+})();
 </script>
-<a href="http://www.google.com/" onclick="NovaJanela(this.href,'nomeJanela','820','560','yes');return false">Abrir Pop-Up</a>
--->
+      </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
 <!-- ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣄⢘⣒⣀⣀⣀⣀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣽⣿⣛⠛⢛⣿⣿⡿⠟⠂⠀
