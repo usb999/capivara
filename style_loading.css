@@ -57,3 +57,10 @@ body {
     transform: scale(0);
   }
 }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 2em;
+}
