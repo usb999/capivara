@@ -79,14 +79,14 @@ h1 {
   <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
     <div class="ms-2 me-auto text-white">
       <div class="fw-bold">Main page</div>
-      with relevant information and straight to the point. <a href="./index.html">visit new page</a>
+      with relevant information and straight to the point. <!--<a href="./index.html">visit new page</a>-->
     </div>
     <span class="badge bg-success rounded-pill" style="color:#5CFF48">Completed</span>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
     <div class="ms-2 me-auto text-muted">
-      <div class="fw-bold">Dashboard</div>
-      direct connection to the site by dashboard.
+      <div class="fw-bold">Security</div>
+      Site base for puzzle development and completion without possibilities of cheating
       </div>
     <span class="badge bg-secondary rounded-pill">0%</span>
   </li>
@@ -97,8 +97,53 @@ h1 {
     </div>
     <span class="badge bg-secondary rounded-pill">0%</span>
   </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
+    <div class="ms-2 me-auto text-white">
+      <div class="fw-bold">Main page</div>
+      with relevant information and straight to the point. <!--<a href="./index.html">visit new page</a>-->
+    </div>
+    <span class="badge bg-success rounded-pill" style="color:#5CFF48">Completed</span>
+  </li>
 </ol>
   </div>
+
+<!--
+<div class="feed-item-body mt-10 m-width-20 post-body">
+     <span class="short-text">Meu texto está ... <a class="read-more">ler mais</a></span>
+     <span class="full-text" style="display: none">Meu texto está aqui firme e forte <a class="read-less">ler menos</a></span>
+</div>
+
+<div class="feed-item-body mt-10 m-width-20 post-body">
+     <span class="short-text">Meu texto está ... <a class="read-more">ler mais</a> </span>
+     <span class="full-text" style="display: none">Meu texto está aqui firme e forte <a class="read-less">ler menos</a></span>
+</div>
+
+<div class="feed-item-body mt-10 m-width-20 post-body">
+     <span class="full-text">Meu texto pequeno</span>
+</div>
+-->
+
+
+
+<script>
+document.querySelectorAll('.post-body').forEach(function (el) {
+   
+   var fullText = el.querySelector('.full-text');
+   var shortText =  el.querySelector('.short-text');
+   
+   if (! shortText) return;
+   
+   el.querySelector('.read-more').addEventListener('click', function () {
+      fullText.style.display = '';
+      shortText.style.display = 'none';
+   })
+   
+   el.querySelector('.read-less').addEventListener('click', function () {
+      fullText.style.display = 'none';
+      shortText.style.display = '';
+   })
+})
+  </script>
 <!--  <center>
 <div class="row">
 				<div class="video-container no-padding-top">
