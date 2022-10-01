@@ -65,44 +65,6 @@ h1 {
 }
 </style>
 
-<body class="d-flex flex-column h-100">
-
-    <!-- Begin page content -->
-    <main role="main" class="flex-shrink-0">
-      <div class="container">
-        <p class="lead">Bem vindo(a) ao ínicio de tudo, se for um novo membro peço que leia com atenção as informações abaixo.</p>
-        <p><a href="./main2.html">👉 Clique aqui e inicie o jogo.</a></p>
-</div>
-    </main>
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted">Algumas informações básicas para entender funcionamento do sistema. 👇</span>
-      </div> 
-    </footer>
-<div class="fixed ">
-<ol class="list-group list-group-numbered ">
-  <span class="badge badge-dark">
-<p class="texto-c">✧ﾟ･ Tutorial ･ﾟ✧</p></span>
-  <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
-    <div class="ms-2 me-auto text-white">
-<div class="feed-item-body mt-10 m-width-20 post-body">
-      <div class="fw-bold">Botão " <button type="button" class="btn btn-sm btn-warning">?</button>" e sua função.</div>
-      É um botão de dúvida, contém dicas da fase para o usuário.
-</div> <!--<a href="./index.html">visit new page</a>-->
-    </div>
-    <span class="badge bg-warning rounded-pill" style="color:#080808">Importante</span>
-  </li>
-  <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
-    <div class="ms-2 me-auto text-white">
-      <div class="fw-bold">Botão "<button class="btn btn-secondary" type="button">Responda</button>" e sua função.</div>
-      Botão de resposta para adicionar a senha da página e prosseguir para a próxima fase.
-      </div>
-    <span class="badge bg-warning rounded-pill" style="color:#080808">Importante</span>
-  </li>
-</ol>
-  </div>
-
-
 
 <!-- Script para leitura mostrar mais/mostrar menos. -->
 <!-- ================================================================================ -->
@@ -128,7 +90,7 @@ document.querySelectorAll('.post-body').forEach(function (el) {
 <!-- ================================================================================ -->
 
 <!-- Botão de dúvida, pode ser utilizado como dica para o usuário. -->
-<!-- ================================================================================ 
+<!-- ================================================================================ -->
   <a class="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-4 text-dark lh-sm text-decoration-none">
             <button onclick="functionClue2()" type="button" class="btn btn-sm btn-warning">?</button></a><script>
 
@@ -153,7 +115,7 @@ document.getElementById("demo").innerHTML = txt;
 
 
 <!-- Botão de resposta, após descobrir a senha clique no mesmo e responda a questão. -->
-<!-- ================================================================================
+<!-- ================================================================================ -->
   <a class="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-4 text-dark lh-sm text-decoration-none">
   <button onclick="myFunction()" class="btn btn-secondary" type="button">Responda</button></a><script>
 
