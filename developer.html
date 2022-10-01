@@ -11,7 +11,7 @@
         <meta property="og:title" content="qwert">
         <meta property="og:description" content="website">        
         <!-- <link rel="icon" href="">-->
-        <title>Moon  ･ﾟ✧</title>
+        <title>error 404 page  ･ﾟ✧</title>
     </head>
 <style>
 fixed{
@@ -54,15 +54,6 @@ h1 {
    width: 400px;
   height: 200px;
 
-.texto-c {
-    font-size: 15px;
-    -webkit-background-clip: text;
-    color: white;
-    -webkit-text-fill-color: transparent;
-    /* background-color: #FFF; */
-    background-image: -webkit-gradient(linear,left top,right top,from(#ea8711), to(#d96363));
-    background-image: -webkit-linear-gradient(left,#48FF00,#00FF91,#0091FF, #4800FF, #FF00DA);
-}
 </style>
 
 <body class="d-flex flex-column h-100">
@@ -70,18 +61,21 @@ h1 {
     <!-- Begin page content -->
     <main role="main" class="flex-shrink-0">
       <div class="container">
-        <p class="lead">Bem vindo(a) ao ínicio de tudo, se for um novo membro peço que leia com atenção as informações abaixo.</p>
+        <h1 class="mt-5">Error 404</h1>
+        <p class="lead">There was an error in updating the page, return to the previous page by clicking on the link below.</p>
+        <p><a href="./index.html">Back to previous page </a></p>
       </div>
     </main>
+
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">Algumas informações básicas para entender funcionamento do sistema. 👇</span>
+        <span class="text-muted">Sorry for this unintentional problem of our server.</span>
       </div> 
     </footer>
 <div class="fixed ">
 <ol class="list-group list-group-numbered ">
   <span class="badge badge-dark">
-<p class="texto-c">✧ﾟ･ Tutorial ･ﾟ✧</p></span>
+<p class="texto-c">✧ﾟ･ Updates ･ﾟ✧</p></span>
   <li class="list-group-item d-flex justify-content-between align-items-start bg-dark">
     <div class="ms-2 me-auto text-white">
       <div class="fw-bold">Main page</div>
@@ -106,117 +100,6 @@ h1 {
 </ol>
   </div>
 
-
-
-<!-- Script para leitura mostrar mais/mostrar menos. -->
-<!-- ================================================================================ -->
-<script>
-document.querySelectorAll('.post-body').forEach(function (el) {
-   
-   var fullText = el.querySelector('.full-text');
-   var shortText =  el.querySelector('.short-text');
-   
-   if (! shortText) return;
-   
-   el.querySelector('.read-more').addEventListener('click', function () {
-      fullText.style.display = '';
-      shortText.style.display = 'none';
-   })
-   
-   el.querySelector('.read-less').addEventListener('click', function () {
-      fullText.style.display = 'none';
-      shortText.style.display = '';
-   })
-})
-  </script>
-<!-- ================================================================================ -->
-
-<!-- Botão de dúvida, pode ser utilizado como dica para o usuário. -->
-<!-- ================================================================================ -->
-  <a class="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-4 text-dark lh-sm text-decoration-none">
-            <button onclick="functionClue2()" type="button" class="btn btn-sm btn-warning">?</button></a><script>
-
-var i = 0;
-var txt = 'PIPIPIPOPOPO';
-var speed = 50;
-
-function functionClue2() {
-  if (i < txt.length) {
-    window.alert("Para visualizar a dica da imagem, basta colocar o mouse sobre ela. Lembre-se tamb�m que as respostas dos enigmas s�o sempre em letra min�scula e sem acento!");
-	end;
-	}
-document.getElementById("demo").innerHTML = txt;
-  }
-        </script>
-
-<!-- ================================================================================ -->
-
-
-
-
-
-
-<!-- Botão de resposta, após descobrir a senha clique no mesmo e responda a questão. -->
-<!-- ================================================================================ -->
-  <a class="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-4 text-dark lh-sm text-decoration-none">
-  <button onclick="myFunction()" class="btn btn-secondary" type="button">Responda</button></a><script>
-
-
-function myFunction() {
-    var txt;
-    var person = prompt("Digite a resposta:", "");
-    if (person == null || person == "") {
-        window.alert("Esse campo n�o pode ficar em branco! Digite sua resposta");
-		end;
-    } 
-	else
-	if (person == "RESPOSTA"){
-         window.location = "proxima pag##";
-         end;
-    }
-	else {
-        window.alert("eRRRRRRRRou");
-		end;
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-</script>
-<script type="text/javascript">
-				var message="Restricted area."; function clickIE4(){
-				if (event.button==2){ alert(message); return false; } }
-				 function clickNS4(e){
-				 if  (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } }
-				 if (document.layers){document.captureEvents(Event.MOUSEDOWN);
-				document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){
-				document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false")    
-		</script>
-
-<script>
-const count = document.querySelector(".count");
-
-setInterval(function () {
-  count.innerHTML = count.innerHTML.replace(/\/g, "");
-  count.innerHTML += " ";
-}, 1000);
-</script>
-<!-- ================================================================================ -->
-
-
-<!--
-<div class="feed-item-body mt-10 m-width-20 post-body">
-     <span class="short-text">Meu texto está ... <a class="read-more">ler mais</a></span>
-     <span class="full-text" style="display: none">Meu texto está aqui firme e forte <a class="read-less">ler menos</a></span>
-</div>
-
-<div class="feed-item-body mt-10 m-width-20 post-body">
-     <span class="short-text">Meu texto está ... <a class="read-more">ler mais</a> </span>
-     <span class="full-text" style="display: none">Meu texto está aqui firme e forte <a class="read-less">ler menos</a></span>
-</div>
-
-<div class="feed-item-body mt-10 m-width-20 post-body">
-     <span class="full-text">Meu texto pequeno</span>
-</div>
--->
 
 
 
