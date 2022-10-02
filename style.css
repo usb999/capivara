@@ -128,15 +128,6 @@ img[Attributes Style] {
         font-weight: normal;
 
   }
-  h1:after{
-   content: '';
-    display: inline-block;
-    background-color: #757575;
-    margin-left: 2px;
-    height: 25px;
-    width: 4px;
-    animation: cursor 0.4s infinite;
-  }
 
   /* The typewriter cursor effect */
   @keyframes cursor {
