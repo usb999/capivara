@@ -758,6 +758,50 @@ position: fixed;
   overflow-clip-margin: content-box;
     overflow: clip;
 }
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup{
+    background-color: #000000;
+    color: green;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #24fd08;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+a{
+    width: 150px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
 </style>
 <div class="container">
   <ul>
@@ -795,7 +839,16 @@ function resetCountdown() {
 }
 </script>
 <body>
-  <img src="./image/cpvra_exists.png" alt="cpvra_exists" width="50%" height="50%">
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h4>MESSAGE NEW!</h4>
+        <p>
+            aZlab Tolkd txv. Vlr xob klq obxiiv qefkhfkd
+            dkfhkfeq viixbo qlk box rlV .vxt dkloT balZa
+        </p>
+    </div>
+<ul id="inline-popups">
+ <li><a href="#cpvra-popup"><img src="./image/cpvra_exists.png" data-effect="mfp-zoom-in" alt="cpvra_exists" width="50%" height="50%"></a></li>
   <h3>
   国内空气污染带来的危害堪比新冠病毒：
   <br>
@@ -820,4 +873,17 @@ function resetCountdown() {
 ⠀⠀⢸⣿⠀⠀⠀⠀⠀⠘⠿⠆⠀⠀⠀⠀⠀⠀⣿⡇⠀⠿⠇⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 -->
+<script>
+    window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        1000
+    )
+});
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+</script>
 </html>
